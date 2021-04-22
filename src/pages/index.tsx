@@ -20,7 +20,7 @@ const topics = [
   {
     id: '1',
     title: 'About me',
-    description: 'This is me',
+    description: 'This is me working',
     image: '/assets/me.jpg',
     background: '#3d3B8E',
     color: '#fff'
@@ -149,6 +149,7 @@ export default function Home() {
                     alt="Close"
                     width={350}
                     height={262}
+                    quality={75}
                   />
                 </main>
                 <footer>{selectedContent.description}</footer>
